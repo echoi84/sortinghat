@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="What do you do in your free time?"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/gryffindorOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go on an adventure" />
+
+        <RadioButton
+            android:id="@+id/slytherinOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scheme and backstab" />
+
+        <RadioButton
+            android:id="@+id/hufflepuffOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hang out with friends" />
+
+        <RadioButton
+            android:id="@+id/ravenclawOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/sortMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleClick"
+        android:text="Sort me" />
+
+</LinearLayout>
