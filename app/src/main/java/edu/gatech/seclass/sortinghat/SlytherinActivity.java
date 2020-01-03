@@ -14,5 +14,12 @@ public class SlytherinActivity extends AppCompatActivity {
         setContentView(R.layout.slytherin_main);
     }
 
+    public void handleClick(View view) {
+        if (view.getId() == R.id.homeButton) {
+            Intent i = new Intent(SlytherinActivity.this, MainActivity.class);
+            startActivity(i);
+        }
+    }
+
 
 }
